@@ -1,17 +1,6 @@
-# Welcome to MkDocs
+# Bem-vindo à Documentação ASOF
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Esse site destina-se a manter um repositório completo e atualizado de processos e documentações a serem utilizados pela ASOF bem como sua Diretoria-Executiva e Funcionários.
 
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+---
+Autor: Gabriel Guimarães Ferreira de Carvalho Ramos
