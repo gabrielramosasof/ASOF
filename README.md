@@ -1,0 +1,39 @@
+# ASOF
+
+## Sobre o Projeto
+
+ASOF é um projeto Python moderno e bem documentado, com foco em eficiência e facilidade de uso.
+
+## Documentação
+
+A documentação completa está disponível em nosso site: `https://seu-usuario.github.io/ASOF`
+
+### Desenvolvimento Local da Documentação
+
+Para executar a documentação localmente:
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/ASOF.git
+   cd ASOF
+   ```
+
+2. Instale as dependências:
+   ```bash
+   pip install -e .
+   ```
+
+3. Execute o servidor de desenvolvimento do MkDocs:
+   ```bash
+   mkdocs serve
+   ```
+
+4. Acesse `http://127.0.0.1:8000` no seu navegador
+
+## Contribuindo
+
+Consulte nosso [Guia de Contribuição](docs/about/contributing.md) para mais detalhes sobre como contribuir com o projeto.
+
+## Licença
+
+Este projeto está licenciado sob os termos da Licença MIT - veja o arquivo [LICENSE](docs/about/license.md) para mais detalhes.

@@ -1,6 +1,14 @@
 # Bem-vindo à Documentação ASOF
 
-Esse site destina-se a manter um repositório completo e atualizado de processos e documentações a serem utilizados pela ASOF bem como sua Diretoria-Executiva e Funcionários.
+Este portal serve como repositório centralizado e dinâmico de documentação, processos e procedimentos da ASOF. Aqui você encontrará informações essenciais para:
+
+- Diretoria Executiva
+- Funcionários
+- Colaboradores
+- Stakeholders
+
+Nossa documentação é constantemente atualizada para garantir que você tenha acesso às informações mais recentes e precisas.
 
 ---
-Autor: Gabriel Guimarães Ferreira de Carvalho Ramos
+Desenvolvido por: Gabriel Guimarães Ferreira de Carvalho Ramos
+Última atualização: {{ date }}

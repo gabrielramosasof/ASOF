@@ -1,0 +1,136 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Guia do Desenvolvedor ASOF
+
+## 1. Instruções de Configuração
+
+### Pré-requisitos
+- Python 3.12 ou superior
+- pip ou uv (gerenciador de pacotes)
+
+### Passos de Instalação
+1. Clone o repositório:
+   ```bash
+   git clone <url-do-repositorio>
+   cd ASOF
+   ```
+
+2. Configure o ambiente Python:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # No Windows: venv\Scripts\activate
+   ```
+
+3. Instale as dependências:
+   ```bash
+   pip install -e .  # ou uv pip install -e .
+   ```
+
+## 2. Visão Geral da Estrutura do Projeto
+
+O projeto ASOF está organizado da seguinte forma:
+
+```
+ASOF/
+├── pyproject.toml     # Configuração do projeto e dependências
+├── README.md         # Documentação principal
+├── .python-version   # Versão Python do projeto
+└── docs/            # Documentação detalhada (usando MkDocs)
+```
+
+### Principais Componentes
+- [pyproject.toml](mdc:pyproject.toml): Define as configurações e dependências do projeto
+- [hello.py](mdc:hello.py): Arquivo de exemplo/teste
+
+## 3. Fluxo de Trabalho de Desenvolvimento
+
+### Processo de Desenvolvimento
+1. Crie uma nova branch para sua feature:
+   ```bash
+   git checkout -b feature/nome-da-feature
+   ```
+
+2. Desenvolva e teste suas alterações localmente
+
+3. Execute os testes:
+   ```bash
+   python -m pytest
+   ```
+
+4. Faça commit das alterações:
+   ```bash
+   git add .
+   git commit -m "descrição clara da alteração"
+   ```
+
+5. Envie para revisão:
+   ```bash
+   git push origin feature/nome-da-feature
+   ```
+
+### Padrões de Código
+- Siga a PEP 8 para estilo de código Python
+- Documente funções e classes usando docstrings
+- Mantenha o código em português para consistência
+
+## 4. Abordagem de Teste
+
+### Estrutura de Testes
+- Utilize pytest para testes unitários
+- Mantenha os testes na pasta `tests/`
+- Nomeie arquivos de teste com prefixo `test_`
+
+### Executando Testes
+```bash
+# Executar todos os testes
+pytest
+
+# Executar testes específicos
+pytest tests/test_specific.py
+
+# Executar com cobertura
+pytest --cov=asof
+```
+
+## 5. Etapas Comuns de Solução de Problemas
+
+### Problemas Comuns e Soluções
+
+1. **Erro de Dependências**
+   ```bash
+   # Reinstale as dependências
+   pip install -e .
+   ```
+
+2. **Conflitos de Versão Python**
+   - Verifique se está usando Python 3.12+
+   - Confirme a versão: `python --version`
+
+3. **Problemas com MkDocs**
+   ```bash
+   # Reinstale MkDocs
+   pip install --upgrade mkdocs
+   ```
+
+### Logs e Debugging
+- Use `logging` para debug
+- Verifique os logs em `logs/`
+- Ative logs de debug quando necessário:
+  ```python
+  import logging
+  logging.basicConfig(level=logging.DEBUG)
+  ```
+
+## Suporte
+
+Para questões ou problemas:
+1. Verifique a documentação
+2. Consulte os problemas conhecidos no GitHub
+3. Abra uma nova issue se necessário
+
+---
+
+*Última atualização: Março 2024*
